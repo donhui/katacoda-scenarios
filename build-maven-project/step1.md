@@ -10,7 +10,7 @@
 
 #### 加载 Dashboard
 
-你可以通过下面 URL 加载 Jenkins' dashboard：`https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/`{{open}}
+你可以通过下面 URL 加载 Jenkins Dashboard：`https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/`{{open}}
 
 用户名是：`admin`{{copy}}，密码是：`9YxwvCOUPML8onXF`{{copy}}
 

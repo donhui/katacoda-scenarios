@@ -1,6 +1,6 @@
 {
-  "title": "Build Maven Project With Jenkins",
-  "description": "Build Maven Project With Jenkins",
+  "title": "使用 Jenkins 构建 Maven 项目",
+  "description": "使用 Jenkins 构建 Maven 项目",
   "difficulty": "Beginner",
   "time": "10-15 minutes",
   "details": {
@@ -16,10 +16,6 @@
       {
         "title": "第三步",
         "text": "step3.md"
-      },
-      {
-        "title": "第四步",
-        "text": "step4.md"
       }
     ],
     "intro": {
