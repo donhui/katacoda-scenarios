@@ -43,7 +43,7 @@ pipeline {
 }
 ```
 
-该 Pipeline 下的 `stages` 包括一个 `stage('Build')`，这个 `stage` 的 `steps` 中会从 github 下载代码，然后使用 maven 构建项目，
+该 Pipeline 下的 `stages` 包括一个 `stage('Build')`，这个 `stage` 的 `steps` 中会从 GitHub 下载代码，然后使用 maven 构建项目，
 如果构建成功的话，会运行 `post` 区域的指令，包括发布 junit 报告以及存档 artifact。
 
 其中，Maven 已事先在`系统管理-->全局工具配置`中配置好。
