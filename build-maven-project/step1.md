@@ -3,6 +3,7 @@
 
 `docker run -d --name jenkins \
     -p 8080:8080 -p 50000:50000 \
+    --env JAVA_OPTS="-Djenkins.install.runSetupWizard=false" \
     donhui/jenkins-with-maven:2.204.5`{{execute}}
 
 相关插件（git、pipeline）和工具（Maven）已经预先配置好；
